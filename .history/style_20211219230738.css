@@ -56,10 +56,6 @@ p {
 .option label {
   color: var(--desaturated-blue);
   cursor: pointer;
-  transition: color ease-in-out 0.2s;
-}
-.option label:hover {
-  color: white;
 }
 .profile-card--name {
   background-color: var(--blue);

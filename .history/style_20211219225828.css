@@ -56,10 +56,6 @@ p {
 .option label {
   color: var(--desaturated-blue);
   cursor: pointer;
-  transition: color ease-in-out 0.2s;
-}
-.option label:hover {
-  color: white;
 }
 .profile-card--name {
   background-color: var(--blue);
@@ -116,15 +112,6 @@ p {
   font-size: 1.125rem;
   font-weight: 400;
   margin: 0;
-}
-.title-wrapper img {
-  filter: invert(85%) sepia(55%) saturate(558%) hue-rotate(194deg)
-    brightness(185%) contrast(116%);
-  cursor: pointer;
-}
-.title-wrapper img:hover {
-  filter: invert(0%) sepia(4%) saturate(0%) hue-rotate(282deg) brightness(140%)
-    contrast(106%);
 }
 .time {
   font-size: 3rem;
